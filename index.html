@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Múltiplos de 8 </title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <body>
+      <div class="tela">
+        <div class="titulo">
+          <div class="texto">
+            <div class="calculadora">CALCULADORA</div>
+            <div class="multiplosd">MÚLTIPLOS DE</div>
+          </div>
+          <div class="num">8</div>
+        </div>
+        <div class="box">
+          <div class="painel">
+            <div class="box1">
+              <b class="tex">8x</b>
+            </div>
+            <div class="multp">
+              <b class="tex">DIGITE O MULTIPLICADOR:</b>
+              <div class="multpl">
+                <input type="number" id="multiplicador" />
+              </div>
+            </div>
+          </div>
+          <div class="result">
+            <b class="tex">RESULTADO:</b>
+            <div class="resultad">
+              <b class="tex" id="resultado"></b>
+            </div>
+          </div>
+          <div class="botoes">
+            <div class="n7">
+              <button class="button1" onclick="addNum('7')">7</button>
+            </div>
+            <div class="n8">
+              <button class="button1" onclick="addNum('8')">8</button>
+            </div>
+            <div class="n9">
+              <button class="button1" onclick="addNum('9')">9</button>
+            </div>
+            <div class="n4">
+              <button class="button1" onclick="addNum('4')">4</button>
+            </div>
+            <div class="n5">
+              <button class="button1" onclick="addNum('5')">5</button>
+            </div>
+            <div class="n6">
+              <button class="button1" onclick="addNum('6')">6</button>
+            </div>
+            <div class="n1">
+              <button class="button1" onclick="addNum('1')">1</button>
+            </div>
+            <div class="n2">
+              <button class="button1" onclick="addNum('2')">2</button>
+            </div>
+            <div class="n3">
+              <button class="button1" onclick="addNum('3')">3</button>
+            </div>
+            <div class="n0">
+              <button class="button0" onclick="addNum('0')">0</button>
+            </div>
+            <div class="apagar">
+              <button class="button3" onclick="apagar()">Apagar</button>
+            </div>
+            <div class="calculo">
+              <button class="button2" onclick="calcular()">Calcular</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </body>
+  </html>
